@@ -1,0 +1,164 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 86px;
+    background-color: #FCAF02;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.header p {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu>nav>ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+}
+
+.menu>nav>ul>li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.intro {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    /* width: 76%; */
+}
+
+.intro-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.intro-desc {
+    color: #fff;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    word-spacing: 2px;
+}
+
+.right {
+    position: relative;
+}
+
+.rotated {
+    /* width: 560px; */
+    height: 400px;
+    top: 173px;
+    left: 1678px;
+    transform: rotateY(180deg);
+}
+
+.login {
+    background-color: #FCAF02;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login h2,
+b {
+    font-weight: 900;
+    font-size: medium;
+}
+
+.form {
+    background-color: black;
+    margin-top: 0;
+    padding: 0 50px;
+}
+
+.form h2 {
+    color: #FCAF02;
+    margin-top: 0;
+}
+
+.input-links {
+    margin: 0;
+}
+
+.input-field {
+    margin: 10px;
+    width: 95%;
+    height: 45px;
+    border-radius: 25px;
+    border: 2px solid #FCAF02;
+    background-color: black;
+    padding: 0 25px;
+    color: #FCAF02;
+}
+
+.table-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #FCAF02;
+    margin: 5%;
+    width: 100%;
+}
+
+table>thead>tr>td {
+    border: 2px solid #FCAF02;
+    font-weight: bolder;
+    font-size: large;
+}
+
+table td {
+    height: 25px;
+    padding: 15px;
+    color: #FCAF02;
+}
+
+tbody>tr>td {
+    border-right: 2px solid #FCAF02;
+}
+.table-footer{
+    background-color: #FCAF02;
+   
+}
+.table-footer td{
+     color: black;
+     border-right: 2px solid black;
+}
+::placeholder {
+  color: #FCAF02;
+}
